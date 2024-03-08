@@ -1,9 +1,16 @@
+@charset "UTF-8";
+
+body{
+  display: inline-flexbox;
+  width: 75%;
+}
+
 h1, p {
   font-family: sans-serif;
   font-weight: 100;
   position: relative;
-  left: 400px;
-  width: 55%;
+  margin-left: 400px;
+  width: 70%;
 }
 
 p {
@@ -28,10 +35,11 @@ li {
   font-weight: 100;
   position: relative;
   text-align: center;
+
 }
 
 li a {
-  display: block;
+  display: grid;
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
@@ -48,5 +56,7 @@ ul {
   margin: 0;
   padding: 0;
   width: 20%;
-  background-color: #f1f1f1;
+  background-color: #cfcfcf;
+  position: fixed;
+  overflow: auto;
 }
