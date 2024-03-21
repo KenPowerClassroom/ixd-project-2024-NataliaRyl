@@ -5,7 +5,7 @@
   width: 75%;
 }
 
-h1, p {
+h1, p, h2, img {
   font-family: sans-serif;
   font-weight: 100;
   position: relative;
@@ -103,4 +103,16 @@ table, th, td {
 
 .bad {
   background-color: #ff0000ae;
+}
+
+#userflow {
+  width: 50%;
+}
+
+#wireframes {
+  width: 75%; 
+}
+
+#keyscreen {
+  width: 75%;
 }
